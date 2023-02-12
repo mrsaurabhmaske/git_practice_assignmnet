@@ -1,14 +1,17 @@
 //Program for checking if the number is Prime or Not
 
-let num= 2;
+let num=13;
+let count=0;
 
-if(num != 2){
-if(num %2 == 0){
-	console.log("The given number:",num,"is NOT Prime");
+for(i=0;i<=num;i++){
+	if(num%i==0){
+		count++
+	}
 }
-}
-else{
+if(count==2){
 	console.log("The given number:",num,"is Prime");
+}else{
+	console.log("The given number:",num,"is NOT Prime");
 }
 
 
