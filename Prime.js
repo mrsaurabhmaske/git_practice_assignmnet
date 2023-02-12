@@ -9,9 +9,9 @@ for(i=0;i<=num;i++){
 	}
 }
 if(count==2){
-	console.log("The given number:",num,"is NOT Prime");
-}else{
 	console.log("The given number:",num,"is Prime");
+}else{
+	console.log("The given number:",num,"is NOT Prime");
 }
 
 
