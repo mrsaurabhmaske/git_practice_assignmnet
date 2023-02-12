@@ -11,3 +11,4 @@ if(str==str2){
 }else{
 	console.log("Given string is NOT a Palindrome");
 }
+//Done 
